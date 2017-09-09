@@ -8,6 +8,7 @@ final class Post: Model {
     // MARK: Properties and database keys
     
     /// The content of the post
+    static let idType: IdentifierType = .uuid
     var content: String
     var receiverName: String
     var receiverMobileNo: String
